@@ -1,3 +1,4 @@
+Curso ORM Sequelize com MySQL
 
 mysql -u 'root' -p
 
