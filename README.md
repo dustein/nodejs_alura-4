@@ -1,6 +1,10 @@
 Curso ORM Sequelize com MySQL
 
 mysql -u 'root' -p
+show databases;
+create database escola_ingles;
+
+
 
 Sequelize:
 npx sequelize-cli init
