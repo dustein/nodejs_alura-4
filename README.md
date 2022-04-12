@@ -3,8 +3,10 @@ Curso ORM Sequelize com MySQL
 mysql -u 'root' -p
 show databases;
 create database escola_ingles;
-
-
+use escola_ingles;
+show tables;
+select * from Pessoas;
+describe Pessoas;
 
 Sequelize:
 npx sequelize-cli init
@@ -15,3 +17,5 @@ npx sequelize-cli db:seed:all
 
 
 Aulas Alura desatualizadas com o ES6. Consegui resolver problema so Sequelize usando Babel.
+
+
