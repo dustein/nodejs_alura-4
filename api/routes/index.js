@@ -1,10 +1,9 @@
-import bodyParser from 'body-parser';
+import express from 'express';
+import router from './pessoasRoute.js';
 
 const routes = app => {
-    app.use(bodyParser.json());
-    app.get('/', (req, res) => {
-        res.send('index dentro de routes')
-    })
+    app.use(express.json());
+    app.use(router)
 }
 
 export default routes;
